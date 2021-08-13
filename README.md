@@ -6,11 +6,16 @@
 * mbasic
 * mobile
 
-# PERINTAH 
-
-$ pkg install python2 git
+# HOW TO INSTALL
+```php
+$ pkg update && pkg upgrade
+& pkg install python2
+$ pkg install git
 $ pip2 install requests bs4
 $ git clone https://github.com/Ilhamxyz213/hmbf
+
+# RUN SCRIPT
+```php
 $ cd hmbf
 $ python2 xd.py
 ```
@@ -19,4 +24,7 @@ $ python2 xd.py
 
 * jangan gunakan akun pribadi
 * jangan lupa kasih bintang dan share
-* good luck bro
+
+```php
+[ Thanks For Angga Kurniawan ]
+```

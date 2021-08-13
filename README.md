@@ -16,7 +16,7 @@ $ git clone https://github.com/Ilhamxyz213/hmbf
 
 
 # RUN SCRIPT
-```php
+
 $ cd hmbf
 $ python2 xd.py
 ```

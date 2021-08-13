@@ -7,12 +7,12 @@
 * mobile
 
 # PERINTAH 
-```php
+
 $ pkg install python2 git
 $ pip2 install requests bs4
 $ git clone https://github.com/Ilhamxyz213/hmbf
-$ cd simplebf
-$ python2 run.py
+$ cd hmbf
+$ python2 xd.py
 ```
 
 # CATATAN

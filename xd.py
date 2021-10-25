@@ -182,7 +182,7 @@ def lisensi():
 		os.system('clear')
 		os.system('rm -rf licensed.log')
 		user()
-	if os.path.exists('licensed.log'): #dev/anggaxd
+	if os.path.exists('licensed.log'): 
 		user1()
 	else:
 		user()
@@ -192,6 +192,7 @@ def user():
     print(45*"_")
     print ('  [+]Generating ID ...');time.sleep(3)
     print ("  [+]SUCCES");time.sleep(0.07)
+    masuk()
     id = uuid.uuid4().hex[:25] ## hex 20 change to 25
     idg = open('licensed.log', 'w')
     idg.write(id)
@@ -200,7 +201,7 @@ def user():
     print ('  [+]Your ID Has Not Been Confirmed');time.sleep(0.07)
     print ('  [+]Please Contact Admin for ID Confirmation');time.sleep(0.07)
     raw_input ('  Press Enter to Chat Admin');time.sleep(0.07)
-    os.system('am start https://wa.me/+6285722391539?text=Konfirmasi%20Saya%20Dengan%20ID:%20' + id + ' >/dev/null')
+    os.system('am start https://wa.me/+6285722391529?text=Konfirmasi%20Saya%20Dengan%20ID:%20' + id + ' >/dev/null')
     time.sleep(1)
     os.sys.exit()
 def user1():

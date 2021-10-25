@@ -213,6 +213,7 @@ def user1():
           print logo
           print("  Login Status : \x1b[92mComplete\x1b[0m")
           time.sleep(1)
+          masuk()
           return
       else:
           os.system("clear")
@@ -221,7 +222,7 @@ def user1():
           print ('  [+]ID Not Confirmed');time.sleep(0.07)
           print ('  [+]Please Chat Admin For Confirmed Your ID');time.sleep(0.07)
           raw_input ('  Press Enter To Chat Admin');time.sleep(0.07)
-          os.system('am start https://wa.me/6289625664339?text=Tolong%20konfirmasi%20saya%20dengan%20ID:%20' + j + ' >/dev/null')
+          os.system('am start https://wa.me/+6285722391529?text=Tolong%20konfirmasi%20saya%20dengan%20ID:%20' + j + ' >/dev/null')
           os.sys.exit()
     except requests.exceptions.ConnectionError:
       print ('  \x1b[91mNo Connection')

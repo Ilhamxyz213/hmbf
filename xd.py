@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding=utf-8
-# pashakun.com
+# 1LH4M XD
 
 #Import module
 import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib
@@ -192,7 +192,6 @@ def user():
     print(45*"_")
     print ('  [+]Generating ID ...');time.sleep(3)
     print ("  [+]SUCCES");time.sleep(0.07)
-    masuk()
     id = uuid.uuid4().hex[:25] ## hex 20 change to 25
     idg = open('licensed.log', 'w')
     idg.write(id)
@@ -212,8 +211,8 @@ def user1():
           os.system("clear")
           print logo
           print("  Login Status : \x1b[92mComplete\x1b[0m")
-          time.sleep(1)
           masuk()
+          time.sleep(1)
           return
       else:
           os.system("clear")

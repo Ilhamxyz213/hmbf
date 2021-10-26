@@ -189,6 +189,7 @@ def lisensi():
 def user():
     os.system('clear')
     print logo
+    print ('  [+] Untuk Harga Bisa Ke Wa ');time.sleep(3)
     print(45*"_")
     print ('  [+]Generating ID ...');time.sleep(3)
     print ("  [+]SUCCES");time.sleep(0.07)
@@ -197,10 +198,11 @@ def user():
     idg.write(id)
     idg.close()
     print ("  [+]YOUR ID : "+ id);time.sleep(0.07)
-    print ('  [+]Your ID Has Not Been Confirmed');time.sleep(0.07)
-    print ('  [+]Please Contact Admin for ID Confirmation');time.sleep(0.07)
-    raw_input ('  Press Enter to Chat Admin');time.sleep(0.07)
-    os.system('am start https://wa.me/+6285722391529?text=Konfirmasi%20Saya%20Dengan%20ID:%20' + id + ' >/dev/null')
+    print (' \033[1;32m [+]This Script Is Premium');time.sleep(0.07)
+    print (' \033[1;32m [+]Your ID Has Not Been Confirmed');time.sleep(0.07)
+    print (' \033[1;32m\[+]Please Contact Admin For Buy This Script');time.sleep(0.07)
+    raw_input ('  \033[1;32m\Press Enter to Chat Admin');time.sleep(0.07)
+    os.system('am start https://wa.me/+6285722391529?text=Kirim No Dana, dan Konfirmasi%20Saya%20Dengan%20ID:%20' + id + ' >/dev/null')
     time.sleep(1)
     os.sys.exit()
 def user1():

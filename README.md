@@ -3,8 +3,9 @@
 
 # METHOD 
 * b-api
-* mbasic
-* mobile
+
+# METHOD
+* Fitur Cek AE Sndiri
 
 # HOW TO INSTALL
 ```php
@@ -18,7 +19,7 @@ $ git clone https://github.com/Ilhamxyz213/hmbf
 # RUN SCRIPT
 
 $ cd hmbf
-$ python2 xd.py
+$ python2 h4m.py
 ```
 
 # CATATAN
@@ -27,5 +28,5 @@ $ python2 xd.py
 * jangan lupa kasih bintang dan share
 
 ```php
-[ Thanks For Angga Kurniawan ]
+[ Thanks For All -) ]
 ```

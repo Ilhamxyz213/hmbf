@@ -207,7 +207,7 @@ def lisensi():
 		user()
 def user():
     os.system('clear')
-    print logo
+    print banner
     print ('  [+] Untuk Harga Bisa Ke Wa ');time.sleep(3)
     print(45*"_")
     print ('  [+]Generating ID ...');time.sleep(3)
